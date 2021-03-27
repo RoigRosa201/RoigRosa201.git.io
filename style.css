@@ -18,3 +18,7 @@ li {
     font-family: cursive;
   }
 
+  .light-theme {
+    color: #000000;
+    background: grey;
+  }
