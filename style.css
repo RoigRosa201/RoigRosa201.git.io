@@ -19,13 +19,15 @@ li {
   }
 
   .light-theme {
-    color: #000000;
-    background: grey;
+    background-color: whitesmoke;
+  }
+
+  .dark-theme {
+    background-color: grey;
   }
 
   .btn {
-      color: var(--btnFontColor);
-      background-color: var(--btnBg);
+      background-color: grey
   }
 
   .btn {
@@ -44,16 +46,4 @@ li {
       outline-style: none; 
   }
 
-  .light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
-  }
   
-  .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
-  }
