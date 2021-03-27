@@ -22,3 +22,8 @@ li {
     color: #000000;
     background: grey;
   }
+
+  .btn {
+      color: var(--btnFontColor);
+      background-color: var(--btnBg);
+  }
